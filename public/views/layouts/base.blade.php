@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html>
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta charset="utf-8" />
@@ -12,7 +12,7 @@
 <!-- END HEAD -->
 
 <!-- BEGIN BODY -->
-<body class="">
+<body class="" ng-app="commentApp" ng-controller="mainController">
 
 @include('partials/header')
 
@@ -32,12 +32,15 @@
       </div>
       <div class="modal-body"> Widget settings form goes here </div>
     </div>
+
     <div class="clearfix"></div>
+
     <div class="content"> 
-    	<!-- LOAD CONTENT --> 
- 		@yield('content')
- 		<!-- LOAD CONTENT --> 		
+      <!-- LOAD CONTENT --> 
+      @yield('content')
+      <!-- LOAD CONTENT --> 		
     </div>
+    
   </div>
 
  </div>
