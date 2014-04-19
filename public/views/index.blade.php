@@ -31,7 +31,7 @@
 
 	<!-- LOADING ICON =============================================== -->
 	<!-- show loading icon if the loading variable is set to true -->
-	<p class="text-center" ng-show="loading"><span class="fa fa-meh-o fa-5x fa-spin"></span></p>
+	<p class="text-center" ng-show="loading"><span class="fa fa-github fa-5x fa-spin"></span></p>
 
 	<!-- THE COMMENTS =============================================== -->
 	<!-- hide these comments if the loading variable is true -->
