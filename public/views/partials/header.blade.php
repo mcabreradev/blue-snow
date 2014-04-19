@@ -7,7 +7,14 @@
 		 <li class="dropdown"> <a id="main-menu-toggle" href="#main-menu"  class="" > <div class="iconset top-menu-toggle-white"></div> </a> </li>		 
 		</ul>
       <!-- BEGIN LOGO -->	
-      <a href="index-2.html"><img src="{{ URL::asset('img/logo.png') }}" class="logo" alt=""  data-src="{{ URL::asset('img/logo.png') }}" data-src-retina="{{ URL::asset('img/logo2x.png') }}" width="106" height="21"/></a>
+      <a href="index-2.html">
+      	<img 
+      		src="[[ URL::asset('img/logo.png') ]]" 
+      		class="logo" alt=""  
+      		data-src="[[ URL::asset('img/logo.png') ]]" 
+      		data-src-retina="[[ URL::asset('img/logo2x.png') ]]" 
+      		width="106" height="21"/>
+      </a>
       <!-- END LOGO --> 
       <ul class="nav pull-right notifcation-center">	
         <li class="dropdown" id="header_task_bar"> <a href="index-2.html" class="dropdown-toggle active" data-toggle=""> <div class="iconset top-home"></div> </a> </li>
@@ -55,7 +62,7 @@
 					<div style="width:300px">
 						  <div class="notification-messages info">
 									<div class="user-profile">
-										<img src="{{ URL::asset('img/profiles/d.jpg') }}"  alt="" data-src="{{ URL::asset('img/profiles/d.jpg') }}" data-src-retina="{{ URL::asset('img/profiles/d2x.jpg') }}" width="35" height="35">
+										<img src="[[ URL::asset('img/profiles/d.jpg') ]]"  alt="" data-src="[[ URL::asset('img/profiles/d.jpg') ]]" data-src-retina="[[ URL::asset('img/profiles/d2x.jpg') ]]" width="35" height="35">
 									</div>
 									<div class="message-wrapper">
 										<div class="heading">
@@ -89,7 +96,7 @@
 							</div>	
 							<div class="notification-messages success">
 								<div class="user-profile">
-									<img src="{{ URL::asset('img/profiles/h.jpg') }}"  alt="" data-src="{{ URL::asset('img/profiles/h.jpg') }}" data-src-retina="{{ URL::asset('img/profiles/h2x.jpg') }}" width="35" height="35">
+									<img src="[[ URL::asset('img/profiles/h.jpg') ]]"  alt="" data-src="[[ URL::asset('img/profiles/h.jpg') ]]" data-src-retina="[[ URL::asset('img/profiles/h2x.jpg') ]]" width="35" height="35">
 								</div>
 								<div class="message-wrapper">
 									<div class="heading">
@@ -107,7 +114,7 @@
 						</div>				
 				</div>
 				<div class="profile-pic"> 
-					<img src="{{ URL::asset('img/profiles/avatar_small.jpg') }}"  alt="" data-src="{{ URL::asset('img/profiles/avatar_small.jpg') }}" data-src-retina="{{ URL::asset('img/profiles/avatar_small2x.jpg') }}" width="35" height="35" /> 
+					<img src="[[ URL::asset('img/profiles/avatar_small.jpg') ]]"  alt="" data-src="[[ URL::asset('img/profiles/avatar_small.jpg') ]]" data-src-retina="[[ URL::asset('img/profiles/avatar_small2x.jpg') ]]" width="35" height="35" /> 
 				</div>       			
 			</div>
 		 <ul class="nav quick-section ">

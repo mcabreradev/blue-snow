@@ -4,7 +4,12 @@
    <div class="page-sidebar-wrapper" id="main-menu-wrapper"> 
    <div class="user-info-wrapper">	
 	<div class="profile-wrapper">
-		<img src="{{ URL::asset('img/profiles/avatar.jpg') }}"  alt="" data-src="{{ URL::asset('img/profiles/avatar.jpg') }}" data-src-retina="{{ URL::asset('img/profiles/avatar2x.jpg') }}" width="69" height="69" />
+		<img 
+			src="[[ URL::asset('img/profiles/avatar.jpg') ]]"  alt="" 
+			data-src="[[ URL::asset('img/profiles/avatar.jpg') ]]" 
+			data-src-retina="[[ URL::asset('img/profiles/avatar2x.jpg') ]]" 
+			width="69" height="69"
+			/>
 	</div>
     <div class="user-info">
       <div class="greeting">Welcome</div>

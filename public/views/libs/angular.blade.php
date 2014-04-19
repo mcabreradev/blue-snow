@@ -1,1 +1,1 @@
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+<script src="[[ URL::asset('js/libs/angular/angular.min.js') ]]"></script>
