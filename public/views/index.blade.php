@@ -1,48 +1,52 @@
-@extends('layouts.base')
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta charset="utf-8" />
+<title> Blue Snow </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta content="" name="description" />
+<meta content="" name="author" />
+@include('libs/css')
+</head>
+<!-- END HEAD -->
 
-@section('content')
+<!-- BEGIN BODY -->
+<body class="" ng-app="myApp" ng-controller="mainController">
 
-<div class="col-md-8 col-md-offset-2">
+@include('partials/header')
 
-	<!-- PAGE TITLE =============================================== -->
-	<div class="page-header">
-		<h2>Laravel and Angular Single Page Application</h2>
-		<h4>Commenting System</h4>
-	</div>
+<!-- BEGIN PAGE CONTAINER -->
+<div class="page-container row-fluid">
+  
+  @include('partials/sidebar')
 
-	<!-- NEW COMMENT FORM =============================================== -->
-	<form ng-submit="submitComment()"> <!-- ng-submit will disable the default form action and use our function -->
+  <!-- BEGIN PAGE CONTAINER-->
+  <div class="page-content">
 
-		<!-- AUTHOR -->
-		<div class="form-group">
-			<input type="text" class="form-control input-sm" name="author" ng-model="commentData.author" placeholder="Name">
-		</div>
+    <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+    <div id="portlet-config" class="modal hide">
+      <div class="modal-header">
+        <button data-dismiss="modal" class="close" type="button"></button>
+        <h3>Widget Settings</h3>
+      </div>
+      <div class="modal-body"> Widget settings form goes here </div>
+    </div>
 
-		<!-- COMMENT TEXT -->
-		<div class="form-group">
-			<input type="text" class="form-control input-lg" name="comment" ng-model="commentData.text" placeholder="Say what you have to say">
-		</div>
-		
-		<!-- SUBMIT BUTTON -->
-		<div class="form-group text-right">	
-			<button type="submit" class="btn btn-primary btn-lg">Submit</button>
-		</div>
-	</form>
+    <div class="clearfix"></div>
 
-	<!-- LOADING ICON =============================================== -->
-	<!-- show loading icon if the loading variable is set to true -->
-	<p class="text-center" ng-show="loading"><span class="fa fa-github fa-5x fa-spin"></span></p>
+    <div class="content" id="angular-view-container" ng-view=""> 
+     
+    </div>
+    
+  </div>
 
-	<!-- THE COMMENTS =============================================== -->
-	<!-- hide these comments if the loading variable is true -->
-	<div class="comment" ng-hide="loading" ng-repeat="comment in comments">
-		<h3>Comment #{{ comment.id }} <small>by {{ comment.author }}</h3>
-		<p>{{ comment.text }}</p>
+ </div>
+<!-- END PAGE CONTAINER -->
 
-		<p><a href="#" ng-click="deleteComment(comment.id)" class="text-muted">Delete</a></p>
-	</div>
+@include('partials/chat')
 
-</div>
-	
-	
-@stop
+@include('libs/angular')
+@include('libs/js')
+</body>
+</html>

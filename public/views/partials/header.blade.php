@@ -9,10 +9,10 @@
       <!-- BEGIN LOGO -->	
       <a href="index-2.html">
       	<img 
-      		src="[[ URL::asset('img/logo.png') ]]" 
+      		src="img/logo.png" 
       		class="logo" alt=""  
-      		data-src="[[ URL::asset('img/logo.png') ]]" 
-      		data-src-retina="[[ URL::asset('img/logo2x.png') ]]" 
+      		data-src="img/logo.png" 
+      		data-src-retina="img/logo2x.png" 
       		width="106" height="21"/>
       </a>
       <!-- END LOGO --> 
@@ -53,7 +53,7 @@
 					<div class="user-details"> 
 						<div class="username">
 							<span class="badge badge-important">3</span> 
-							Miguelangel <span class="bold">Cabrera</span>									
+							Miguelangel <span class="bold"></span>									
 						</div>						
 					</div> 
 					<div class="iconset top-down-arrow"></div>
@@ -62,7 +62,9 @@
 					<div style="width:300px">
 						  <div class="notification-messages info">
 									<div class="user-profile">
-										<img src="[[ URL::asset('img/profiles/d.jpg') ]]"  alt="" data-src="[[ URL::asset('img/profiles/d.jpg') ]]" data-src-retina="[[ URL::asset('img/profiles/d2x.jpg') ]]" width="35" height="35">
+										<img src="img/profiles/d.jpg"  alt="" 
+										data-src="img/profiles/d.jpg" 
+										data-src-retina="img/profiles/d2x.jpg" width="35" height="35">
 									</div>
 									<div class="message-wrapper">
 										<div class="heading">
@@ -96,7 +98,9 @@
 							</div>	
 							<div class="notification-messages success">
 								<div class="user-profile">
-									<img src="[[ URL::asset('img/profiles/h.jpg') ]]"  alt="" data-src="[[ URL::asset('img/profiles/h.jpg') ]]" data-src-retina="[[ URL::asset('img/profiles/h2x.jpg') ]]" width="35" height="35">
+									<img src="img/profiles/h.jpg"  alt="" 
+									data-src="img/profiles/h.jpg" 
+									data-src-retina="img/profiles/h2x.jpg" width="35" height="35">
 								</div>
 								<div class="message-wrapper">
 									<div class="heading">
@@ -114,7 +118,9 @@
 						</div>				
 				</div>
 				<div class="profile-pic"> 
-					<img src="[[ URL::asset('img/profiles/avatar_small.jpg') ]]"  alt="" data-src="[[ URL::asset('img/profiles/avatar_small.jpg') ]]" data-src-retina="[[ URL::asset('img/profiles/avatar_small2x.jpg') ]]" width="35" height="35" /> 
+					<img src="img/profiles/avatar_small.jpg"  alt="" 
+					data-src="img/profiles/avatar_small.jpg" 
+					data-src-retina="img/profiles/avatar_small2x.jpg" width="35" height="35" /> 
 				</div>       			
 			</div>
 		 <ul class="nav quick-section ">

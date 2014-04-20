@@ -5,9 +5,9 @@
    <div class="user-info-wrapper">	
 	<div class="profile-wrapper">
 		<img 
-			src="[[ URL::asset('img/profiles/avatar.jpg') ]]"  alt="" 
-			data-src="[[ URL::asset('img/profiles/avatar.jpg') ]]" 
-			data-src-retina="[[ URL::asset('img/profiles/avatar2x.jpg') ]]" 
+			src="img/profiles/avatar.jpg"  alt="" 
+			data-src="img/profiles/avatar.jpg" 
+			data-src-retina="img/profiles/avatar2x.jpg" 
 			width="69" height="69"
 			/>
 	</div>
