@@ -24,20 +24,15 @@
   <!-- BEGIN PAGE CONTAINER-->
   <div class="page-content">
 
-    <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
-    <div id="portlet-config" class="modal hide">
-      <div class="modal-header">
-        <button data-dismiss="modal" class="close" type="button"></button>
-        <h3>Widget Settings</h3>
-      </div>
-      <div class="modal-body"> Widget settings form goes here </div>
-    </div>
+    @include('partials/portlet')
 
     <div class="clearfix"></div>
 
+    <!-- ANGULAR-VIEW-CONTAINER -->
     <div class="content" id="angular-view-container" ng-view=""> 
      
     </div>
+    <!-- END  ANGULAR-VIEW-CONTAINER -->
     
   </div>
 
@@ -45,7 +40,6 @@
 <!-- END PAGE CONTAINER -->
 
 @include('partials/chat')
-
 @include('libs/angular')
 @include('libs/js')
 </body>

@@ -13,7 +13,7 @@
 	</div>
     <div class="user-info">
       <div class="greeting">Welcome</div>
-      <div class="username">Miguelangel <span class="semi-bold">Cabrera</span></div>
+      <div class="username">{{user.name}}</div>
       <div class="status">Status<a href="#"><div class="status-icon green"></div>Online</a></div>
     </div>
    </div>
@@ -22,10 +22,37 @@
    <!-- BEGIN SIDEBAR MENU -->	
 	<p class="menu-title">BROWSE <span class="pull-right"><a href="javascript:;"><i class="fa fa-refresh"></i></a></span></p>
     <ul>	
-      <li class="start active "> <a href="index-2.html"> <i class="icon-custom-home"></i> <span class="title">Dashboard</span> <span class="selected"></span> <span class="badge badge-important pull-right">5</span></a> </li>
-	  <li class=""> <a href="email.html"> <i class="fa fa-envelope"></i> <span class="title">Email</span>  <span class=" badge badge-disable pull-right ">203</span></a> </li>      
-	  <li class=""> <a href="http://www.revox.io/frontend/index.html"> <i class="fa fa-flag"></i>  <span class="title">Frontend</span></a></li>      
-      <li class=""> <a href="javascript:;"> <i class="icon-custom-ui"></i> <span class="title">UI Elements</span> <span class="arrow "></span> </a>
+      <li class="start active "> 
+      	<a href="index-2.html"> 
+      		<i class="icon-custom-home"></i> 
+      		<span class="title">Dashboard</span> 
+      		<span class="selected"></span> 
+      		<span class="badge badge-important pull-right">5</span>
+      	</a> 
+      </li>
+
+	  <li class=""> 
+	  	<a href="email.html"> 
+	  		<i class="fa fa-envelope"></i> 
+	  		<span class="title">Email</span>  
+	  		<span class=" badge badge-disable pull-right ">203</span>
+	  	</a> 
+	  </li>  
+
+	  <li class=""> 
+	  	<a href="http://www.revox.io/frontend/index.html"> 
+	  		<i class="fa fa-flag"></i>  
+	  		<span class="title">Frontend</span>
+	  	</a>
+	  </li>  
+
+      <li class=""> 
+      	<a href="javascript:;"> 
+      		<i class="icon-custom-ui"></i> 
+      		<span class="title">UI Elements</span> 
+      		<span class="arrow ">
+      		</span> 
+      	</a>
         <ul class="sub-menu">
 		  <li > <a href="typography.html"> Typography </a> </li>
 		  <li > <a href="messages_notifications.html"> Messages & Notifications </a> </li>
@@ -36,12 +63,14 @@
           <li > <a href="group_list.html">Group list </a> </li>
         </ul>
       </li>
+
 	  <li class=""> <a href="javascript:;"> <i class="icon-custom-form"></i> <span class="title">Forms</span> <span class="arrow "></span> </a>
         <ul class="sub-menu">
           <li > <a href="form_elements.html">Form Elements </a> </li>
           <li > <a href="form_validations.html">Form Validations</a> </li>
         </ul>
       </li>
+
       <li class=""> <a href="javascript:;"> <i class="icon-custom-portlets"></i> <span class="title">Grids</span> <span class="arrow "></span> </a>
         <ul class="sub-menu">
           <li > <a href="grids_simple.html">Simple Grids</a> </li>
@@ -151,6 +180,6 @@
 		<div class="details-status">
 		<span data-animation-duration="560" data-value="86" class="animate-number"></span>%
 	</div>	
-	<a href="lockscreen.html"><i class="fa fa-power-off"></i></a></div>
+	<a href="/#/lookscreen"><i class="fa fa-power-off"></i></a></div>
   </div>
   <!-- END SIDEBAR -->

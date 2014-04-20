@@ -11,6 +11,8 @@ myApp.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html'
+        // templateUrl: 'views/landing/lookscreen.html'
+
       })
       .when('/forgot_password', {
         templateUrl: 'views/home/home.html'
@@ -28,6 +30,9 @@ myApp.config(function ($routeProvider) {
       .when('/logout',{
         templateUrl: 'views/home/home.html'
       , controller: 'logoutController'
+      })
+      .when('/lookscreen',{
+        templateUrl: 'views/landing/lookscreen.html'
       })
       .otherwise({
         redirectTo: '/'

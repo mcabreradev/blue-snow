@@ -53,7 +53,7 @@
 					<div class="user-details"> 
 						<div class="username">
 							<span class="badge badge-important">3</span> 
-							Miguelangel <span class="bold"></span>									
+							{{user.name}} <span class="bold"></span>									
 						</div>						
 					</div> 
 					<div class="iconset top-down-arrow"></div>
@@ -124,19 +124,19 @@
 				</div>       			
 			</div>
 		 <ul class="nav quick-section ">
-			<li class="quicklinks"> 
+			<li class="quicklinks" ng-click="open= open ? false: true" ng-class="{ open: open }"> 
 				<a data-toggle="dropdown" class="dropdown-toggle  pull-right " href="#" id="user-options">						
 					<div class="iconset top-settings-dark "></div> 	
 				</a>
 				<ul class="dropdown-menu  pull-right" role="menu" aria-labelledby="user-options">
-                  <li><a href="user-profile.html"> My Account</a>
+                  <li><a href="/#/profile"> My Account</a>
                   </li>
-                  <li><a href="calender.html">My Calendar</a>
+                  <li><a href="/#/calendar">My Calendar</a>
                   </li>
-                  <li><a href="email.html"> My Inbox&nbsp;&nbsp;<span class="badge badge-important animated bounceIn">2</span></a>
+                  <li><a href="/#/email"> My Inbox&nbsp;&nbsp;<span class="badge badge-important animated bounceIn">2</span></a>
                   </li>
                   <li class="divider"></li>                
-                  <li><a href="login.html"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Log Out</a></li>
+                  <li><a href="/#/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Log Out</a></li>
                </ul>
 			</li> 
 			<li class="quicklinks"> <span class="h-seperate"></span></li> 
