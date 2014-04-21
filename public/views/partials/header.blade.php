@@ -139,19 +139,7 @@
                   <li><a href="/#/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Log Out</a></li>
                </ul>
 			</li> 
-			<li class="quicklinks"> <span class="h-seperate"></span></li> 
-			<li class="quicklinks"> 	
-			<a id="chat-menu-toggle" href="#sidr" class="chat-menu-toggle" ><div class="iconset top-chat-dark "><span class="badge badge-important hide" id="chat-message-count">1</span></div>
-			</a> 
-				<div class="simple-chat-popup chat-menu-toggle hide" >
-					<div class="simple-chat-popup-arrow"></div><div class="simple-chat-popup-inner">
-						 <div style="width:100px">
-						 <div class="semi-bold">David Nester</div>
-						 <div class="message">Hey you there </div>
-						</div>
-					</div>
-				</div>
-			</li> 
+			 
 		</ul>
       </div>
 	   <!-- END CHAT TOGGLER -->

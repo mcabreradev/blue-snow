@@ -39,8 +39,6 @@
  </div>
 <!-- END PAGE CONTAINER -->
 
-@include('partials/chat')
-
 @include('libs/angular')
 @include('libs/js')
 </body>
