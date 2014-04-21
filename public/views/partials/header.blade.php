@@ -15,10 +15,11 @@
       		data-src-retina="img/logo2x.png" 
       		width="106" height="21"/>
       </a>
+
       <!-- END LOGO --> 
       <ul class="nav pull-right notifcation-center">	
         <li class="dropdown" id="header_task_bar"> 
-        	<a href="index-2.html" class="dropdown-toggle active" data-toggle=""> 
+        	<a href="/#/" class="dropdown-toggle active" data-toggle=""> 
         		<div class="iconset top-home"></div> 
         	</a> 
         </li>
@@ -49,7 +50,7 @@
             </a> </li>
 			<li class="m-r-10 input-prepend inside search-form no-boarder">
 				<span class="add-on"> <span class="iconset top-search"></span></span>
-				 <input name="" type="text"  class="no-boarder " placeholder="Search Dashboard" style="width:250px;">
+				 <input name="" type="text"  class="no-boarder " placeholder="Buscar.." style="width:250px;">
 			</li>
 		  </ul>
 	  </div>

@@ -5,6 +5,6 @@
 	<div class="user-info">
 	  <div class="greeting">Hola</div>
 	  <div class="username">{{user.name}}</div>
-	  <div class="status">Estado<a href="#"><div class="status-icon green"></div>Online</a></div>
+	  <div class="status">Dev</div>
 	</div>
 </div>
