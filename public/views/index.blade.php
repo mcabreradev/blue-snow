@@ -19,7 +19,7 @@
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container row-fluid">
   
-  @include('partials/sidebar')
+  @include('partials/sidebar/sidebar')
 
   <!-- BEGIN PAGE CONTAINER-->
   <div class="page-content">
@@ -40,6 +40,7 @@
 <!-- END PAGE CONTAINER -->
 
 @include('partials/chat')
+
 @include('libs/angular')
 @include('libs/js')
 </body>
