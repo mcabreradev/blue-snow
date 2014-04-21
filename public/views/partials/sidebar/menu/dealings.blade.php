@@ -1,6 +1,6 @@
 <li class=""> <a href="javascript:;"> 
 	<i class="fa fa-dollar"></i> 
-	<span class="title">Transacciones</span> 
+	<span class="title">Transacciones </span> 
 	<span class="arrow "></span> </a>
 	<ul class="sub-menu">
 		<li > <a href="/#/">Alquiler Adeudado</a> </li>

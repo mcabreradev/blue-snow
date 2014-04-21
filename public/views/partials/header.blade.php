@@ -1,36 +1,30 @@
 <!-- BEGIN HEADER -->
 <div class="header navbar navbar-inverse "> 
   <!-- BEGIN TOP NAVIGATION BAR -->
-  <div class="navbar-inner">
-	<div class="header-seperation"> 
-		<ul class="nav pull-left notifcation-center" id="main-menu-toggle-wrapper" style="display:none">	
-		 <li class="dropdown"> <a id="main-menu-toggle" href="#main-menu"  class="" > <div class="iconset top-menu-toggle-white"></div> </a> </li>		 
-		</ul>
-      <!-- BEGIN LOGO -->	
-      <a href="index-2.html">
-      	<img 
-      		src="img/logo.png" 
-      		class="logo" alt=""  
-      		data-src="img/logo.png" 
-      		data-src-retina="img/logo2x.png" 
-      		width="106" height="21"/>
-      </a>
+ 	<div class="navbar-inner">
+		<div class="header-seperation"> 
+			<ul class="nav pull-left notifcation-center" id="main-menu-toggle-wrapper" style="display:none">	
+			 <li class="dropdown"> <a id="main-menu-toggle" href="#main-menu"  class="" > <div class="iconset top-menu-toggle-white"></div> </a> </li>		 
+			</ul>
+	      <!-- BEGIN LOGO -->	
+	      <a href="index-2.html">
+	      	<img 
+	      		src="img/logo.png" 
+	      		class="logo" alt=""  
+	      		data-src="img/logo.png" 
+	      		data-src-retina="img/logo2x.png" 
+	      		width="106" height="21"/>
+	      </a>
 
-      <!-- END LOGO --> 
-      <ul class="nav pull-right notifcation-center">	
-        <li class="dropdown" id="header_task_bar"> 
-        	<a href="/#/" class="dropdown-toggle active" data-toggle=""> 
-        		<div class="iconset top-home"></div> 
-        	</a> 
-        </li>
-   
-		<li class="dropdown" id="portrait-chat-toggler" style="display:none"> 
-			<a href="#sidr" class="chat-menu-toggle"> 
-				<div class="iconset top-chat-white "></div> 
-			</a> 
-		</li>        
-      </ul>
-      </div>
+	      <!-- END LOGO --> 
+	      <ul class="nav pull-right notifcation-center">	
+	        <li class="dropdown" id="header_task_bar"> 
+	        	<a href="/#/" class="dropdown-toggle active" data-toggle=""> 
+	        		<div class="iconset top-home"></div> 
+	        	</a> 
+	        </li>
+	      </ul>
+	    </div>
       <!-- END RESPONSIVE MENU TOGGLER --> 
       <div class="header-quick-nav" > 
       <!-- BEGIN TOP NAVIGATION MENU -->
