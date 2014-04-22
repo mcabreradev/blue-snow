@@ -8,9 +8,13 @@ class LandingController extends BaseController {
 	 *
 	 * @return Response
 	 */
-	public function index()
-	{
-		return View::make('landing.main');
+	public function index(){
+
+		if (Auth::check()){
+		   return View::make('landing.main');
+		}
+		return Redirect::to('/login');
+
 	}
 
 	/**
