@@ -10,7 +10,7 @@
     	@include('partials/sidebar/menu/configurations')
     	@include('partials/sidebar/menu/users')
     	<li > 
-    		<a href="/#/">
+    		<a href="/logout">
     			<i class="fa fa-power-off"></i>&nbsp;&nbsp;<span class="title">Salir</span>
     		</a>
     	</li>

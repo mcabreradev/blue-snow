@@ -4,11 +4,11 @@ $(document).ready(function() {
                 focusInvalid: false, 
                 ignore: "",
                 rules: {
-                    txtusername: {
+                    username: {
                         minlength: 2,
                         required: true
                     },
-                    txtpassword: {
+                    password: {
                         required: true,
                     }
                 },

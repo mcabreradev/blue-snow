@@ -44,5 +44,12 @@ App::missing(function($exception)
 	return View::make('index');
 });
 
+// route to show the login form
+Route::get('login', array('uses' => 'HomeController@showLogin'));
+
+// route to process the form
+Route::post('login', array('uses' => 'HomeController@doLogin'));
+Route::get('logout', array('uses' => 'HomeController@doLogout'));
+
 Blade::setContentTags('[[', ']]'); 		// for variables and all things Blade
 Blade::setEscapedContentTags('[[[', ']]]'); 	// for escaped data

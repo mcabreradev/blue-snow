@@ -25,9 +25,6 @@ myApp.config(function ($routeProvider) {
       .when('/registration/step2', {
         templateUrl: 'views/registration/step2.html'
       })
-      .when('/logout',{
-        redirectTo: '/'
-      })
       .when('/lookscreen',{
         templateUrl: 'views/landing/lookscreen.html'
       })

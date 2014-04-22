@@ -139,7 +139,7 @@
                   <li><a href="/#/email"> My Inbox&nbsp;&nbsp;<span class="badge badge-important animated bounceIn">2</span></a>
                   </li>
                   <li class="divider"></li>                
-                  <li><a href="/#/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Log Out</a></li>
+                  <li><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Log Out</a></li>
                </ul>
 			</li> 
 			 
