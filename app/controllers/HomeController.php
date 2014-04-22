@@ -20,8 +20,7 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
 
-	public function showLogin()
-	{
+	public function showLogin(){
 		// show the form
 		return View::make('login');
 	}
@@ -59,10 +58,10 @@ class HomeController extends BaseController {
 				// for now we'll just echo success (even though echoing in a controller is bad)
 				return Redirect::to('/#/');
 
-			} else {	 	
+			} else {
 
-				// validation not successful, send back to form	
-				return Redirect::to('login');
+				// validation not successful, send back to form
+				//return Redirect::to('login');
 
 			}
 

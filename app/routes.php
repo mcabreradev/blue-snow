@@ -14,8 +14,13 @@
 // =============================================
 // HOME PAGE ===================================
 // =============================================
-Route::get('/', function()
-{
+Route::get('/', function(){
+
+	//Check if user is Logged
+	if (!Auth::check()){
+	   return Redirect::to('/login'); // will return to /login
+	}
+
 	// we dont need to use Laravel Blade
 	// we will return a PHP file that will hold all of our Angular content
 	// see the "Where to Place Angular Files" below to see ideas on how to structure your app
@@ -30,7 +35,7 @@ Route::group(array('prefix' => 'api'), function() {
 	// since we will be using this just for CRUD, we won't need create and edit
 	// Angular will handle both of those forms
 	// this ensures that a user can't access api/create or api/edit when there's nothing there
-	Route::resource('comments', 'CommentController', 
+	Route::resource('comments', 'CommentController',
 		array('only' => array('index', 'store', 'destroy')));
 });
 

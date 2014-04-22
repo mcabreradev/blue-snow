@@ -14,15 +14,20 @@
   <div class="lockscreen-wrapper animated  flipInX">
   <div class="row ">
     <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
+    <p>
+      [[ $errors->first('email') ]]
+      [[ $errors->first('password') ]]
+    </p>
+
 		<h2>Inicio de Sesión</h2>
 		 [[ Form::open(array('url' => 'login', 'id'=>'login-form', 'class'=>'login-form')) ]]
 		 <div class="row">
 		 <div class="form-group col-md-10">
             <label class="form-label">Usuario</label>
             <div class="controls">
-				<div class="input-with-icon  right">                                       
+				<div class="input-with-icon  right">
 					<i class=""></i>
-					[[Form::text('email', Input::old('email'), array('class' => 'form-control'))]]                                 
+					[[Form::text('email', Input::old('email'), array('class' => 'form-control'))]]
 				</div>
             </div>
           </div>
@@ -32,9 +37,9 @@
             <label class="form-label">Contraseña</label>
             <span class="help"></span>
             <div class="controls">
-				<div class="input-with-icon  right">                                       
+				<div class="input-with-icon  right">
 					<i class=""></i>
-					[[Form::password('password', array('class' => 'form-control'))]]                                 
+					[[Form::password('password', array('class' => 'form-control'))]]
 				</div>
             </div>
           </div>

@@ -10,10 +10,6 @@ class LandingController extends BaseController {
 	 */
 	public function index(){
 
-		if (Auth::check()){
-		   return View::make('landing.main');
-		}
-		return Redirect::to('/login');
 
 	}
 
