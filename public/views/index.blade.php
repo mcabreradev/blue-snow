@@ -29,7 +29,7 @@
     <div class="clearfix"></div>
 
     <!-- ANGULAR-VIEW-CONTAINER -->
-    <div class="content" id="angular-view-container" ng-view=""> 
+    <div class="content animated  fadeIn" id="angular-view-container" ng-view=""> 
      
     </div>
     <!-- END  ANGULAR-VIEW-CONTAINER -->
