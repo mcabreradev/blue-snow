@@ -4,12 +4,21 @@ $(document).ready(function() {
                 focusInvalid: false, 
                 ignore: "",
                 rules: {
-                    username: {
-                        minlength: 2,
-                        required: true
+                    email: {
+                        required: true,
+                        email: true
                     },
                     password: {
                         required: true,
+                    }
+                },
+                messages : {
+                    email : {
+                        required : "Debe ingresar el email",
+                        email    : "Debe ingresar un email válido"
+                    },
+                    password : {
+                        required : "Debe ingresar la contraseña"
                     }
                 },
 

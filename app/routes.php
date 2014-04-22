@@ -46,7 +46,7 @@ Route::group(array('prefix' => 'api'), function() {
 // this allows angular to route them
 App::missing(function($exception)
 {
-	return View::make('index');
+	return Redirect::to('/login'); // will return to /login
 });
 
 // route to show the login form

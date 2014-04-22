@@ -17,6 +17,7 @@
     <p>
       [[ $errors->first('email') ]]
       [[ $errors->first('password') ]]
+      [[ $errors->first(0) ]]
     </p>
 
 		<h2>Inicio de Sesión</h2>
@@ -25,9 +26,9 @@
 		 <div class="form-group col-md-10">
             <label class="form-label">Usuario</label>
             <div class="controls">
-				<div class="input-with-icon  right">
+				<div class="input-with-icon">
 					<i class=""></i>
-					[[Form::text('email', Input::old('email'), array('class' => 'form-control'))]]
+					[[Form::text('email', Input::old('email'), array('class' => 'form-control')) ]]
 				</div>
             </div>
           </div>
@@ -37,7 +38,7 @@
             <label class="form-label">Contraseña</label>
             <span class="help"></span>
             <div class="controls">
-				<div class="input-with-icon  right">
+				<div class="input-with-icon">
 					<i class=""></i>
 					[[Form::password('password', array('class' => 'form-control'))]]
 				</div>
